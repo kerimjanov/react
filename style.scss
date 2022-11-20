@@ -1,0 +1,78 @@
+@import "global";
+@import "mixin";
+@import "veraibles";
+@import "media";
+
+#spas{
+  padding-top: 13%;
+  .spas{
+    max-width: 1160px;
+    height: 254px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    h1{
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 48px;
+      text-transform: uppercase;
+      color: $bl;
+      padding: 40px 37px;
+
+    }
+    &--car{
+      @include cart();
+
+
+    }
+    &--cart{
+      span{
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 48px;
+        background: linear-gradient(115.11deg, #FFBC2A 16.38%, #FF4F39 95.45%);        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: $bl;
+
+      }
+      .spas--haw{
+        width: 80px;
+        height: 0;
+        border: 1px solid #C7C7C7;
+        transform: rotate(90deg);
+        margin-top: -30px;
+        margin-left: 130px;
+      }
+    }
+    &--carb{
+      span{
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 48px;
+        background: linear-gradient(115.11deg, #FFBC2A 16.38%, #FF4F39 95.45%);        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: $bl;
+
+      }
+      .spas--haw{
+        width: 80px;
+        height: 0;
+        border: 1px solid #C7C7C7;
+        transform: rotate(90deg);
+        margin-top: -30px;
+        margin-left: 220px;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: rgba(128, 128, 128, 0.83);
+}
+
+#spas {
+  padding-top: 13%;
+}
+#spas .spas {
+  max-width: 1160px;
+  height: 254px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+#spas .spas h1 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #333;
+  padding: 40px 37px;
+}
+#spas .spas--car {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#spas .spas--cart span {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  background: linear-gradient(115.11deg, #FFBC2A 16.38%, #FF4F39 95.45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#spas .spas--cart p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+#spas .spas--cart .spas--haw {
+  width: 80px;
+  height: 0;
+  border: 1px solid #C7C7C7;
+  transform: rotate(90deg);
+  margin-top: -30px;
+  margin-left: 130px;
+}
+#spas .spas--carb span {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  background: linear-gradient(115.11deg, #FFBC2A 16.38%, #FF4F39 95.45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#spas .spas--carb p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+#spas .spas--carb .spas--haw {
+  width: 80px;
+  height: 0;
+  border: 1px solid #C7C7C7;
+  transform: rotate(90deg);
+  margin-top: -30px;
+  margin-left: 220px;
+}
+
+/*# sourceMappingURL=style.css.map */
