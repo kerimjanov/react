@@ -232,3 +232,25 @@
     }
   }
 }
+#footer{
+  @include foot();
+  animation: slidein 2s ease-in-out;
+
+  .footer{
+    @include flexbox();
+    p{
+      @include ppp();
+    }
+    h4{
+      @include h44();
+    }
+    h6{
+      @include h66();
+    }
+    &--one{
+      button{
+        @include button();
+      }
+    }
+  }
+}
