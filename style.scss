@@ -1,1 +1,19 @@
+@import "mixin";
+@import "veribles";
+@import "media";
+@import "global";
+#header{
+  @include bac();
+  .header{
+    @include flexbox();
+    &--one{
 
+      a {
+        @include a();
+      }
+    }
+    button{
+      @include button();
+    }
+  }
+}
