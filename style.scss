@@ -17,3 +17,32 @@
     }
   }
 }
+#hero{
+  animation: slidein 2s ease-in-out;
+  .hero{
+    @include fle();
+    &--logo{
+      h1{
+        @include h1();
+      }
+      h2{
+        @include h2();
+      }
+      p{
+        @include p();
+      }
+      button {
+        @include btn();
+      }
+    }
+  }
+}
+@keyframes slidein {
+  from {
+    transform:rotateY(-100px);
+  }
+
+  to {
+    transform:rotateY(-100px);
+  }
+}
