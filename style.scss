@@ -254,3 +254,13 @@
     }
   }
 }
+#black{
+  @include qw();
+  animation: slidein 2s ease-in-out;
+  .black{
+    @include cc();
+    h2{
+      @include lk();
+    }
+  }
+}

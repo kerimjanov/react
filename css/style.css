@@ -416,4 +416,20 @@ body {
   box-shadow: 0 0 5px #77B2D3, 0 0 50px #77B2D3, 0 0 100px #77B2D3;
 }
 
+#black {
+  background: #2D2D2D;
+  padding: 10px 0;
+  animation: slidein 2s ease-in-out;
+}
+#black .black {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#black .black h2 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
 /*# sourceMappingURL=style.css.map */
